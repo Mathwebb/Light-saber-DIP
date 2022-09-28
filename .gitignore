@@ -1,1 +1,4 @@
 venv
+entry_frames/*
+exit_frames/*
+videos/*

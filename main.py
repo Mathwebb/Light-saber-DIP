@@ -73,7 +73,7 @@ def main():
   frames_de_saida = [frame for frame in os.listdir("exit_frames")]
   frames_de_saida.sort(key = ordenar_frames)
   criar_video(frames_de_saida)
-
+'''
   img = cv2.imread("frames/1.jpg")
   num_de_linhas, num_de_colunas, _ = img.shape
   img2 = np.zeros((img.shape), np.uint8)
@@ -94,7 +94,7 @@ def main():
         img2.itemset((i, j, 1), pixel_g)
         img2.itemset((i, j, 2), pixel_r)
 
-  cv2.imwrite("1.jpg", img2)
+  cv2.imwrite("1.jpg", img2)'''
 
 
 if __name__ == "__main__":
